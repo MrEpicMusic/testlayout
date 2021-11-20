@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	height: 600px;
+	background: #e9e9e9;
+}
+
+.top {
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	height: 80px;
+}
+
+.logo img {
+	padding: 35px 95px;
+}
+
+nav {
+	margin-left: 25%;
+	margin-top: 45px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #191919;
+	margin-left: 25px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #10c9c3;
+}
+
+.banner {
+	margin-left: 50%;
+	margin-top: 160px;
+	text-align: left;
+}
+
+.banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	margin-bottom: 40px;
+	font-weight: 400;
+	color: #1d1d1d;
+}
+
+.banner p {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	color: #a3a3a3;
+}
+
+.banner .btn {
+	margin-top: 40px;
+	padding: 20px 60px;
+	background: #10c9c3;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.about {
+	text-align: center;
+	height: 350px;
+}
+
+.about h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin: 100px 0 40px;
+}
+
+.about p {
+	font-family: 'Nunito sans', sans-serif;
+	font-size: 16px;
+	color: #b5b5b5;
+	margin-bottom: 40px;
+}
+
+.skills {
+	display: flex;
+	box-sizing: border-box;
+	height: 570px;
+}
+
+.skill-data {
+	width: 50%;
+	background: #f8f9f9;
+}
+
+.skill-data h1 {
+	margin: 165px 100px 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.skill-data p {
+	margin-left: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.skill-data img {
+	margin: 20px 0 40px 100px;
+	height: 4px;
+	display: inline-block;
+}
+
+.skill-data .ux {
+	width: 330px;
+}
+
+.skill-data .web {
+	width: 430px;
+}
+
+.skill-data .sell {
+	width: 275px;
+}
+
+.skill-other {
+	background: #e9e9e9;
+	height: 100%;
+	width: 50%;
+}
+
+.statistic {
+	display: flex;
+	align-items: center;
+	height: 240px;
+	justify-content: space-around;
+	background: #10c9c3;
+	color: #FFF;
+}
+
+.stat-card {
+	display: flex;
+}
+
+.stat-info {
+	flex-direction: row;
+	margin-left: 25px;
+}
+
+.stat-card h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.stat-card p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.pe-7s-portfolio,
+.pe-7s-clock,
+.pe-7s-star,
+.pe-7s-like {
+	font-size: 48px;
+}
+
+.results {
+	text-align: center;
+}
+
+.results-images {
+	display: flex;
+	height: 595px;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.result-img {
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	border-bottom: 1px dotted #000;
+	position: relative;
+}
+
+.result-img:hover {
+	background: #000;
+	opacity: 0.3;
+}
+
+.result-img .pe-7s-look {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-size: 48px;
+}
+
+.result-img:nth-child(odd) {
+	background: #838383;
+}
+.result-img:nth-child(even) {
+	background: #ddd;
+}
+.result-img:nth-child(5),
+.result-img:nth-child(6),
+.result-img:nth-child(7),
+.result-img:nth-child(8) {
+	border-bottom: 0;
+}
+
+.load-btn {
+	text-align: center;
+	background: #f5f5f5;
+	color: #bebebe;
+	padding: 45px 0;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.process {
+	text-align: center;
+}
+
+.process h1 {
+	padding: 100px 0 45px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.process p {
+	font-family: 'Nunito sans', sans-serif;
+	font-size: 16px;
+	color: #acacac;
+}
+
+.process video {
+	padding: 60px 0 100px	;
+	width: 90%;
+}
+
+.services {
+	display: flex;
+	text-align: center;
+	background: #f5f5f5;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-item {
+	padding-top: 100px;
+	box-sizing: content-box;
+	width: 25%;
+}
+
+.service-item:last-child {
+	margin-bottom: 100px;
+}
+
+.service-item .pe-7s-diamond,
+.service-item .pe-7s-arc,
+.service-item .pe-7s-phone,
+.service-item .pe-7s-joy,
+.service-item .pe-7s-plane,
+.service-item .pe-7s-star,
+.service-item .pe-7s-magic-wand,
+.service-item .pe-7s-paint-bucket {
+	font-size: 48px;
+}
+
+.service-card {
+	flex-direction: row;
+}
+
+.service-card h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 25px 0 15px;
+}
+
+.service-card p {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	color: #898989;
+}
+
+.testemonials {
+	background: #10c9c3;
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+.testemonials h3 {
+	font-size: 18px;
+	padding: 175px 0 40px;
+}
+
+.testemonials p {
+	font-size: 12px;
+	padding-bottom: 50px;
+}
+
+.testemonials .pagination {
+	display: flex;
+	justify-content: center;
+	height: 15px;
+	align-items: flex-end;
+	padding-bottom: 60px;
+}
+
+.testemonials .pagination a {
+	padding: 0 3px;
+	align-items: start;
+}
+.clients {
+	display: flex;
+	justify-content: space-around;
+}
+
+.clients img {
+	margin: 70px 0;
+}
+
+.order-form {
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.order-form h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 100px 0 45px;
+}
+
+.order-form p {
+	padding-bottom: 40px;
+	color: #787878;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+}
+
+input[type=text] {
+	padding: 18px 0 18px 15px;
+	margin: 30px;
+	width: 670px;
+	box-sizing: content-box;
+	outline: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+}
+input[type=text]:nth-child(1),
+input[type=text]:nth-child(2) {
+	width: 295px;
+	margin-bottom: 0;
+}
+textarea {
+	height: 170px;
+	padding: 18px 0 18px 15px;
+	width: 670px;
+	outline: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+}
+.btn {
+	margin-top: 40px;
+	padding: 20px 60px;
+	background: #10c9c3;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+}
+form {
+	padding-bottom: 100px;
+}
+
+footer {
+	display: flex;
+	align-items: flex-start;
+	background: #000;
+	color: #898989;
+	padding: 100px 0 104px 100px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+}
+
+.contacts {
+	margin-left: 200px;
+}
+
+.info {
+	margin-left: 110px;
+	flex-direction: row;
+}
+
+.news {
+	margin-left: 35px;
+	flex-direction: row;
+}
+
+.social {
+	margin-left: 100px;
+	flex-direction: row;
+}
